@@ -9897,7 +9897,7 @@ episode after scraping</source>
     <message>
         <location filename="../../src/scrapers/movie/custom/CustomMovieScraper.cpp" line="+23"/>
         <source>Custom Movie Scraper</source>
-        <translation>Личные настройки поиска фильмов</translation>
+        <translation>Пользовательский поиск фильмов</translation>
     </message>
     <message>
         <location line="+1"/>
