@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru">
+<TS version="2.1" language="ru_RU">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -673,7 +673,7 @@
     <message>
         <location line="+89"/>
         <source>Internal inconsistency: Cannot set language dropdown in concert search widget!</source>
-        <translation type="unfinished"></translation>
+        <translation>Несоответствие: Не удается настроить выпадающий список языков в виджете поиска концертов!</translation>
     </message>
 </context>
 <context>
@@ -687,8 +687,7 @@
     <message>
         <location line="+10"/>
         <source>You can use the placeholder &lt;baseFileName&gt; which is the filename without extension.</source>
-        <translation>&lt;baseFileName&gt; - имя файла без расширения.
-</translation>
+        <translation>&lt;baseFileName&gt; - имя файла без расширения.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -763,7 +762,7 @@
     <message>
         <location line="-115"/>
         <source>HDR Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип HDR</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -831,7 +830,7 @@
     <message>
         <location line="+3"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -1495,7 +1494,7 @@
     <message>
         <location line="-69"/>
         <source>TV Show Links</source>
-        <translation type="unfinished"></translation>
+        <translation>Ссылки на сериал</translation>
     </message>
     <message>
         <location line="+70"/>
@@ -2996,7 +2995,7 @@ The directories containing your music must contain subdirectories for each artis
     <message>
         <location line="+2"/>
         <source>This operation sorts all movies in this directory to separate sub-directories based on the file name. Click &quot;Ok&quot;, if that&apos;s, what you want to do. </source>
-        <translation>Эта операция переносит все фильмы этом каталоге в отдельные подкаталоги на основе имени файла. Нажмите &quot;Ок&quot;, если хотите это сделать.</translation>
+        <translation>Эта операция переносит все фильмы этом каталоге в отдельные подкаталоги на основе имени файла. Нажмите &quot;Ок&quot;, если хотите это сделать. </translation>
     </message>
 </context>
 <context>
@@ -3423,9 +3422,7 @@ The directories containing your music must contain subdirectories for each artis
     <message>
         <location line="+19"/>
         <source>If you want to use the synchronization feature you need to enable the webserver within Kodi (Settings -&gt; Services -&gt; Webserver). Enter the port of the webserver here (usually 80 or 8080).</source>
-        <translation>Для синхронизации необходимо включить веб-сервер в Kodi (Настройки -&gt; Сервисы -&gt; Веб-сервер).
-Введите адрес и порт веб-сервера:
-</translation>
+        <translation>Для синхронизации необходимо включить веб-сервер в Kodi (Настройки -&gt; Сервисы -&gt; Веб-сервер). Введите адрес и порт веб-сервера.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -5055,8 +5052,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+10"/>
         <source>You can use the placeholder &lt;baseFileName&gt; which is the filename without extension.</source>
-        <translation>&lt;baseFileName&gt; - имя файла без расширения.
-</translation>
+        <translation>&lt;baseFileName&gt; - имя файла без расширения.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -5179,7 +5175,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+3"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location line="+44"/>
@@ -5307,7 +5303,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
         <location line="+45"/>
         <source>yyyy-MM-dd</source>
         <extracomment>Date Format</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>гггг-ММ-дд</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -5440,7 +5436,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+144"/>
         <source>HDR Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип HDR</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -5557,12 +5553,12 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+5"/>
         <source>TV Show Links</source>
-        <translation type="unfinished"></translation>
+        <translation>Ссылки на сериал</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Add TV Show</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить сериал</translation>
     </message>
     <message>
         <location line="+378"/>
@@ -6083,9 +6079,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location filename="../../src/ui/settings/MusicSettingsWidget.ui" line="+17"/>
         <source>Below you see the filenames which are used for loading and saving your artists and albums. You can edit them as you like, if you want to use multiple files separate them by comma.</source>
-        <translation>Имена файлов для сохранения и загрузки информации об исполнителях и альбомах.
-Можно использовать любые имена или несколько имён (необходимо разделить запятой).
-</translation>
+        <translation>Имена файлов для сохранения и загрузки информации об исполнителях и альбомах. Можно использовать любые имена или несколько имён (необходимо разделить запятой).</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -6624,7 +6618,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location filename="../../src/ui/small_widgets/PlaceholderLineEdit.cpp" line="+31"/>
         <source>Errors in naming pattern: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка в имени шаблона: %1</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -6841,43 +6835,43 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
         <location filename="../../src/renamer/PlaceholderParser.cpp" line="+23"/>
         <location line="+9"/>
         <source>Unexpected closing &apos;%1&apos;, without opening &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Неожиданное закрытие &apos;%1&apos;, без открытия &apos;%2&apos;</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Missing closing tag for &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Отсутствует закрывающий тег для &apos;%1&apos;</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Unexpected empty condition &apos;{}&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Пустое условие &apos;{}&apos;</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+39"/>
         <source>Missing closing &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Отсутствует закрывающий символ &apos;%1&apos;</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>Unexpected closing tag &apos;{/%1}&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Неожиданный закрывающий тег &apos;{/%1}&apos;.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Expected closing tag &apos;{/%1}&apos;, but found &apos;{/%2}&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ожидаемый закрывающий тег &apos;{/%1}&apos;, but found &apos;{/%2}&apos;.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Unexpected empty value &apos;&lt;&gt;&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Пустое значение &apos;&lt;&gt;&apos;</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Missing &apos;%1&apos; for placeholder</source>
-        <translation type="unfinished"></translation>
+        <translation>Отсутствует &apos;%1&apos; в качестве заполнителя</translation>
     </message>
 </context>
 <context>
@@ -6985,7 +6979,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+158"/>
         <source>Replace Spaces with</source>
-        <translation type="unfinished"></translation>
+        <translation>Замените пробелы на</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -6995,7 +6989,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+10"/>
         <source>Replace Space Delimiter</source>
-        <translation type="unfinished"></translation>
+        <translation>Заменить пробелы</translation>
     </message>
     <message>
         <location line="-17"/>
@@ -7378,7 +7372,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location filename="../../src/ui/settings/ScraperSettingsTable.ui" line="+41"/>
         <source>Enable adult scrapers</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить &quot;для взрослых&quot;</translation>
     </message>
     <message>
         <location filename="../../src/ui/settings/ScraperSettingsTable.cpp" line="+60"/>
@@ -7396,12 +7390,12 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="-53"/>
         <source>Scrapers</source>
-        <translation type="unfinished"></translation>
+        <translation>Источники</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Custom Movie Scraper</source>
-        <translation>Личные настройки поиска фильмов</translation>
+        <translation>Настройки поиска фильмов</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -7416,7 +7410,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+14"/>
         <source>Custom TV Scraper</source>
-        <translation>Пользовательский поиск</translation>
+        <translation>Настройки поиска сериалов</translation>
     </message>
     <message>
         <location filename="../../src/ui/settings/ScraperSettingsWidget.cpp" line="+183"/>
@@ -7426,17 +7420,17 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+0"/>
         <source>Select a movie scraper in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать источник из списка.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>TV shows</source>
-        <translation type="unfinished"></translation>
+        <translation>Сериалы</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Select a TV show scraper in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать поиск сериала из списка.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -7446,7 +7440,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+0"/>
         <source>Select a concert scraper in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать поиск концерта из списка.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -7456,17 +7450,17 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+0"/>
         <source>Select a music scraper in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать поиск музыки из списка.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Изображения</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Select an image provider in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать поиск изображений из списка.</translation>
     </message>
     <message>
         <location line="+94"/>
@@ -7591,7 +7585,7 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+1"/>
         <source>TV Show Links</source>
-        <translation type="unfinished"></translation>
+        <translation>Ссылки на сериал</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8397,7 +8391,7 @@ episode after scraping</source>
     <message>
         <location line="+46"/>
         <source>Skipping show &quot;%1&quot; because it does not have a valid ID and you requested only shows with an ID to be scraped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пропущен показ &quot;%1&quot;, потому что у него нет действительного идентификатора, а вы запросили показы только с идентификатором.</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -8776,9 +8770,7 @@ episode after scraping</source>
     <message>
         <location line="+10"/>
         <source>You can use the placeholder &lt;baseFileName&gt; which is the filename without extension and for season posters &lt;seasonNumber&gt; which is the season number.</source>
-        <translation>&lt;baseFileName&gt; - имя файла без расширения.
-Для постеров сезонов использовать &lt;seasonNumber&gt; - номер сезона.
-</translation>
+        <translation>&lt;baseFileName&gt; - имя файла без расширения. Для постеров сезонов использовать &lt;seasonNumber&gt; - номер сезона.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -8935,7 +8927,7 @@ episode after scraping</source>
     <message>
         <location line="+3"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location line="+111"/>
@@ -9052,12 +9044,12 @@ episode after scraping</source>
         <location line="+460"/>
         <source>yyyy-MM-dd</source>
         <extracomment>Date Format</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>гггг-ММ-дд</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>missing</source>
-        <translation type="unfinished"></translation>
+        <translation>отсутствует</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -9196,7 +9188,7 @@ episode after scraping</source>
     <message>
         <location line="+55"/>
         <source>HDR Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип HDR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -9567,12 +9559,12 @@ episode after scraping</source>
         <location line="+277"/>
         <source>yyyy-MM-dd</source>
         <extracomment>Date Format</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>гггг-ММ-дд</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&lt;i&gt;missing&lt;/i&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;i&gt;отсутствует&lt;/i&gt;</translation>
     </message>
     <message>
         <location line="+161"/>
@@ -9931,7 +9923,7 @@ episode after scraping</source>
     <message>
         <location filename="../../src/scrapers/music/Discogs.cpp" line="+209"/>
         <source>Discogs is a database of information about audio recordings, including commercial releases, promotional releases, and bootleg or off-label releases. </source>
-        <translation>Discogs - это база данных информации об аудиозаписях, включая коммерческие релизы, промо-релизы, а также бутлег и самостоятельные релизы.</translation>
+        <translation>Discogs - это база данных информации об аудиозаписях, включая коммерческие релизы, промо-релизы, а также бутлег и самостоятельные релизы. </translation>
     </message>
 </context>
 <context>
