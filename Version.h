@@ -10,9 +10,9 @@ namespace constants {
 
 // Update versions via ./scripts/release/bump_version.py
 constexpr char AppName[] = "MediaElch";
-constexpr char AppVersionStr[] = "2.12.1"; // major.minor.patch
-constexpr char AppVersionFullStr[] = "2.12.1-dev"; // major.minor.patch[-identifier]
-constexpr char VersionName[] = "Benzar";
+constexpr char AppVersionStr[] = "2.12.2"; // major.minor.patch
+constexpr char AppVersionFullStr[] = "2.12.2"; // major.minor.patch[-identifier]
+constexpr char VersionName[] = "Benzar Fork";
 constexpr char OrganizationName[] = "kvibes";
 
 #ifdef QT_NO_DEBUG
