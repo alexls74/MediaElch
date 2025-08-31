@@ -1,14 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#ce8bbc;
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 22 22">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #6bb7e4;
       }
-      </style>
+    </style>
   </defs>
- <path
-     style="fill:currentColor;fill-opacity:1;stroke:none"
-     d="M 11 3 C 6.568 3 3 6.568 3 11 C 3 15.432 6.568 19 11 19 C 15.432 19 19 15.432 19 11 C 19 6.568 15.432 3 11 3 z M 11 4 C 14.878 4 18 7.122 18 11 C 18 14.878 14.878 18 11 18 C 7.122 18 4 14.878 4 11 C 4 7.122 7.122 4 11 4 z M 10 6 L 10 8 L 12 8 L 12 6 L 10 6 z M 10 9 L 10 16 L 12 16 L 12 9 L 10 9 z "
-     class="ColorScheme-Text"
-     />
+  <path class="st0" d="M11,2.41C6.29,2.41,2.47,6.26,2.47,11.02s3.82,8.61,8.53,8.61,8.53-3.85,8.53-8.61S15.71,2.41,11,2.41ZM11,18.01c-3.83,0-6.93-3.13-6.93-7s3.1-7,6.93-7,6.93,3.13,6.93,7-3.1,7-6.93,7ZM9.94,6.71h2.13v2.15h-2.13v-2.15ZM13.14,15.32h-4.27v-1.08h1.07v-3.23h-1.07v-1.08h3.2v4.31h1.07v1.08Z"/>
 </svg>

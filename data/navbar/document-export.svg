@@ -1,11 +1,12 @@
-<!DOCTYPE svg>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-    <defs>
-        <style type="text/css" id="current-color-scheme">
-            .ColorScheme-Text {
-                color:#6ac385;
-            }
-        </style>
-    </defs>
-    <path class="ColorScheme-Text" style="fill:currentColor; fill-opacity:1; stroke:none" d="M 7 5 L 18 5 L 18 12 L 25 12 L 25 19 L 26 19 L 26 11 L 19 4 L 6 4 L 6 28 L 19 28 L 19 27 L 7 27 L 7 5 Z M 16.9961 22.5 L 16.9961 23.5 L 25.0859 23.5 L 21.293 27.293 L 22 28 L 27 23 L 22 18 L 21.293 18.707 L 25.0859 22.5 L 16.9961 22.5 Z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #6bb7e4;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M16.8,4.41v2.7H7.35v18.91h9.45v2.7H6c-.75,0-1.35-.6-1.35-1.35h0V5.76c0-.75.6-1.35,1.35-1.35h10.8ZM22.21,11.16l6.75,5.4-6.75,5.4v-4.05h-10.8v-2.7h10.8v-4.05h0Z"/>
 </svg>
