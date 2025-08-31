@@ -6533,12 +6533,12 @@ If you want to search by an TMDb id please prefix it with &quot;id&quot;.</sourc
     <message>
         <location line="+3"/>
         <source>Save (%1)</source>
-        <translation>Сохранение (%1)</translation>
+        <translation>Сохранить (%1)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Save All (%1)</source>
-        <translation>Сохранение всех (%1)</translation>
+        <translation>Сохранить все (%1)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -9897,7 +9897,7 @@ episode after scraping</source>
     <message>
         <location filename="../../src/scrapers/movie/custom/CustomMovieScraper.cpp" line="+23"/>
         <source>Custom Movie Scraper</source>
-        <translation>Пользовательский поиск фильмов</translation>
+        <translation>Пользовательский</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9910,7 +9910,7 @@ episode after scraping</source>
     <message>
         <location filename="../../src/scrapers/tv_show/custom/CustomTvScraper.cpp" line="+28"/>
         <source>Custom TV scraper</source>
-        <translation>Пользовательский поиск сериалов</translation>
+        <translation>Пользовательский</translation>
     </message>
     <message>
         <location line="+5"/>
