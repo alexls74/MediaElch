@@ -164,10 +164,10 @@ MovieWidget::MovieWidget(QWidget* parent) : QWidget(parent), ui(new Ui::MovieWid
     m_savingWidget->setMovie(m_loadingMovie);
     m_savingWidget->hide();
 
-    ui->btnImdb->setIcon(style()->standardIcon(QStyle::SP_ArrowRight));
-    ui->btnTmdb->setIcon(style()->standardIcon(QStyle::SP_ArrowRight));
-    ui->btnImdb->setText(QLatin1String(""));
-    ui->btnTmdb->setText(QLatin1String(""));
+    // ui->btnImdb->setIcon(style()->standardIcon(QStyle::SP_ArrowRight));
+    // ui->btnTmdb->setIcon(style()->standardIcon(QStyle::SP_ArrowRight));
+    // ui->btnImdb->setText(QLatin1String(""));
+    // ui->btnTmdb->setText(QLatin1String(""));
 
     // Connect GUI change events to movie object
     // clang-format off
