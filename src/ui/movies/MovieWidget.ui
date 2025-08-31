@@ -619,10 +619,7 @@
                    <string>Open movie on IMDb.com</string>
                   </property>
                   <property name="text">
-                  </property>
-                  <property name="icon">
-                   <iconset resource="../../../data/MediaElch.qrc">
-                   <normaloff>:/img/web.png</normaloff>:/img/web.png</iconset>
+                   <string>Go</string>
                   </property>
                  </widget>
                 </item>
@@ -658,10 +655,7 @@
                    <string>Open movie on TheMovieDB.org</string>
                   </property>
                   <property name="text">
-                  </property>
-                  <property name="icon">
-                   <iconset resource="../../../data/MediaElch.qrc">
-                   <normaloff>:/img/web.png</normaloff>:/img/web.png</iconset>
+                   <string>Go</string>
                   </property>
                  </widget>
                 </item>
