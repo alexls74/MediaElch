@@ -52,7 +52,7 @@ FanartTv::FanartTv(FanartTvConfiguration& settings, QObject* parent) : ImageProv
     m_meta.supportedLanguages = FanartTvConfiguration::supportedLanguages();
     m_meta.defaultLocale = FanartTvConfiguration::defaultLocale();
 
-    m_apiKey = "842f7a5d1cc7396f142b8dd47c4ba42b";
+    m_apiKey = "e9c9b886f03086fa339c4544f48d6f95";
     m_tmdbConfig = std::make_unique<mediaelch::scraper::TmdbMovieConfiguration>(*Settings::instance());
     m_tmdb = new TmdbMovie(*m_tmdbConfig, this);
 }
