@@ -28,7 +28,7 @@
      <item>
       <spacer name="horizontalSpacer_4">
        <property name="orientation">
-        <enum>Qt::Orientation::Horizontal</enum>
+        <enum>Qt::Horizontal</enum>
        </property>
        <property name="sizeType">
         <enum>QSizePolicy::Policy::Fixed</enum>
@@ -85,7 +85,7 @@
      <item>
       <spacer name="titleSpacer">
        <property name="orientation">
-        <enum>Qt::Orientation::Horizontal</enum>
+        <enum>Qt::Horizontal</enum>
        </property>
        <property name="sizeHint" stdset="0">
         <size>
@@ -118,7 +118,7 @@
      <item>
       <spacer name="hSpacerRight">
        <property name="orientation">
-        <enum>Qt::Orientation::Horizontal</enum>
+        <enum>Qt::Horizontal</enum>
        </property>
        <property name="sizeType">
         <enum>QSizePolicy::Policy::Fixed</enum>
@@ -200,7 +200,7 @@
                </widget>
               </item>
               <item row="3" column="1">
-               <widget class="QLineEdit" name="originalName"/>
+               <widget class="QLineEdit" name="originalTitle"/>
               </item>
               <item row="4" column="0">
                <widget class="QLabel" name="lblSortTitle">
@@ -331,7 +331,7 @@
                 <item>
                  <spacer name="horizontalSpacer_5">
                   <property name="orientation">
-                   <enum>Qt::Orientation::Horizontal</enum>
+                   <enum>Qt::Horizontal</enum>
                   </property>
                   <property name="sizeType">
                    <enum>QSizePolicy::Policy::Fixed</enum>
@@ -361,7 +361,7 @@
                 <item>
                  <spacer name="horizontalSpacer_6">
                   <property name="orientation">
-                   <enum>Qt::Orientation::Horizontal</enum>
+                   <enum>Qt::Horizontal</enum>
                   </property>
                   <property name="sizeType">
                    <enum>QSizePolicy::Policy::Fixed</enum>
@@ -491,7 +491,7 @@
                   <item>
                    <spacer name="horizontalSpacer_userRating">
                     <property name="orientation">
-                     <enum>Qt::Orientation::Horizontal</enum>
+                     <enum>Qt::Horizontal</enum>
                     </property>
                     <property name="sizeType">
                      <enum>QSizePolicy::Policy::Fixed</enum>
@@ -527,7 +527,7 @@
                   <item>
                    <spacer name="horizontalSpacer_12">
                     <property name="orientation">
-                     <enum>Qt::Orientation::Horizontal</enum>
+                     <enum>Qt::Horizontal</enum>
                     </property>
                     <property name="sizeHint" stdset="0">
                      <size>
@@ -559,7 +559,7 @@
                 <item>
                  <spacer name="horizontalSpacer_2">
                   <property name="orientation">
-                   <enum>Qt::Orientation::Horizontal</enum>
+                   <enum>Qt::Horizontal</enum>
                   </property>
                   <property name="sizeType">
                    <enum>QSizePolicy::Policy::Fixed</enum>
@@ -619,17 +619,14 @@
                    <string>Open movie on IMDb.com</string>
                   </property>
                   <property name="text">
-                  </property>
-                  <property name="icon">
-                   <iconset resource="../../../data/MediaElch.qrc">
-                   <normaloff>:/img/web.png</normaloff>:/img/web.png</iconset>
+                   <string>Go</string>
                   </property>
                  </widget>
                 </item>
                 <item>
                  <spacer name="horizontalSpacer_14">
                   <property name="orientation">
-                   <enum>Qt::Orientation::Horizontal</enum>
+                   <enum>Qt::Horizontal</enum>
                   </property>
                   <property name="sizeType">
                    <enum>QSizePolicy::Policy::Fixed</enum>
@@ -658,17 +655,14 @@
                    <string>Open movie on TheMovieDB.org</string>
                   </property>
                   <property name="text">
-                  </property>
-                  <property name="icon">
-                   <iconset resource="../../../data/MediaElch.qrc">
-                   <normaloff>:/img/web.png</normaloff>:/img/web.png</iconset>
+                   <string>Go</string>
                   </property>
                  </widget>
                 </item>
                 <item>
                  <spacer name="horizontalSpacer_15">
                   <property name="orientation">
-                   <enum>Qt::Orientation::Horizontal</enum>
+                   <enum>Qt::Horizontal</enum>
                   </property>
                   <property name="sizeHint" stdset="0">
                    <size>
@@ -720,7 +714,7 @@
             <item>
              <spacer name="verticalSpacer_3">
               <property name="orientation">
-               <enum>Qt::Orientation::Vertical</enum>
+               <enum>Qt::Vertical</enum>
               </property>
               <property name="sizeHint" stdset="0">
                <size>
@@ -784,7 +778,7 @@
               <item>
                <spacer name="horizontalSpacer_3">
                 <property name="orientation">
-                 <enum>Qt::Orientation::Horizontal</enum>
+                 <enum>Qt::Horizontal</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
@@ -812,6 +806,75 @@
            <layout class="QVBoxLayout" name="verticalLayout_12">
             <item>
              <layout class="QGridLayout" name="streamDetails">
+              <item row="7" column="1">
+               <widget class="QTimeEdit" name="videoDuration">
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::ButtonSymbols::NoButtons</enum>
+                </property>
+                <property name="displayFormat">
+                 <string>HH:mm:ss</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QLineEdit" name="videoScantype">
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="lblAspectRatio">
+                <property name="text">
+                 <string>Aspect Ratio</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QDoubleSpinBox" name="videoAspectRatio">
+                <property name="maximumSize">
+                 <size>
+                  <width>100</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::ButtonSymbols::NoButtons</enum>
+                </property>
+                <property name="decimals">
+                 <number>3</number>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="lblStereoMode">
+                <property name="text">
+                 <string>Stereo Mode</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="StereoModeComboBox" name="stereoMode">
+                <property name="sizeAdjustPolicy">
+                 <enum>QComboBox::SizeAdjustPolicy::AdjustToContents</enum>
+                </property>
+               </widget>
+              </item>
               <item row="1" column="1">
                <widget class="QLineEdit" name="videoCodec">
                 <property name="maximumSize">
@@ -819,6 +882,41 @@
                   <width>100</width>
                   <height>16777215</height>
                  </size>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="0">
+               <widget class="QLabel" name="lblDuration">
+                <property name="text">
+                 <string>Duration</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="lblVideo">
+                <property name="font">
+                 <font>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Video</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="lblCodec">
+                <property name="text">
+                 <string>Codec</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
                 </property>
                </widget>
               </item>
@@ -842,44 +940,8 @@
                 </property>
                </widget>
               </item>
-              <item row="3" column="0">
-               <widget class="QLabel" name="lblAspectRatio">
-                <property name="text">
-                 <string>Aspect Ratio</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item row="4" column="1">
-               <widget class="QLineEdit" name="videoScantype">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="3" column="1">
-               <widget class="QDoubleSpinBox" name="videoAspectRatio">
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="buttonSymbols">
-                 <enum>QAbstractSpinBox::ButtonSymbols::NoButtons</enum>
-                </property>
-                <property name="decimals">
-                 <number>3</number>
-                </property>
-               </widget>
-              </item>
-              <item row="7" column="0">
-               <widget class="QLabel" name="labelStreamDetailsAudio">
+              <item row="8" column="0">
+               <widget class="QLabel" name="lblStreamDetailsAudio">
                 <property name="font">
                  <font>
                   <bold>true</bold>
@@ -887,47 +949,6 @@
                 </property>
                 <property name="text">
                  <string>Audio</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item row="0" column="0">
-               <widget class="QLabel" name="lblVideo">
-                <property name="font">
-                 <font>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>Video</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="1">
-               <widget class="QTimeEdit" name="videoDuration">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="buttonSymbols">
-                 <enum>QAbstractSpinBox::ButtonSymbols::NoButtons</enum>
-                </property>
-                <property name="displayFormat">
-                 <string>HH:mm:ss</string>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="0">
-               <widget class="QLabel" name="lblDuration">
-                <property name="text">
-                 <string>Duration</string>
                 </property>
                 <property name="alignment">
                  <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -966,7 +987,7 @@
                 <item>
                  <spacer name="horizontalSpacer_10">
                   <property name="orientation">
-                   <enum>Qt::Orientation::Horizontal</enum>
+                   <enum>Qt::Horizontal</enum>
                   </property>
                   <property name="sizeHint" stdset="0">
                    <size>
@@ -978,30 +999,30 @@
                 </item>
                </layout>
               </item>
-              <item row="1" column="0">
-               <widget class="QLabel" name="lblCodec">
+              <item row="6" column="1">
+               <widget class="HdrTypeComboBox" name="hdrType"/>
+              </item>
+              <item row="6" column="0">
+               <widget class="QLabel" name="lblHdrType">
                 <property name="text">
-                 <string>Codec</string>
+                 <string>HDR Type</string>
                 </property>
                 <property name="alignment">
                  <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
                 </property>
                </widget>
               </item>
-              <item row="5" column="0">
-               <widget class="QLabel" name="lblStereoMode">
+              <item row="0" column="1">
+               <widget class="QLabel" name="lblVideoEmpty">
                 <property name="text">
-                 <string>Stereo Mode</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+                 <string/>
                 </property>
                </widget>
               </item>
-              <item row="5" column="1">
-               <widget class="StereoModeComboBox" name="stereoMode">
-                <property name="sizeAdjustPolicy">
-                 <enum>QComboBox::SizeAdjustPolicy::AdjustToContents</enum>
+              <item row="8" column="1">
+               <widget class="QLabel" name="lblAudioEmpty">
+                <property name="text">
+                 <string/>
                 </property>
                </widget>
               </item>
@@ -1033,7 +1054,7 @@
               <item>
                <spacer name="horizontalSpacer_9">
                 <property name="orientation">
-                 <enum>Qt::Orientation::Horizontal</enum>
+                 <enum>Qt::Horizontal</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
@@ -1048,7 +1069,7 @@
             <item>
              <spacer name="verticalSpacer_4">
               <property name="orientation">
-               <enum>Qt::Orientation::Vertical</enum>
+               <enum>Qt::Vertical</enum>
               </property>
               <property name="sizeType">
                <enum>QSizePolicy::Policy::Fixed</enum>
@@ -1107,7 +1128,7 @@
             <item>
              <spacer name="verticalSpacer_8">
               <property name="orientation">
-               <enum>Qt::Orientation::Vertical</enum>
+               <enum>Qt::Vertical</enum>
               </property>
               <property name="sizeHint" stdset="0">
                <size>
@@ -1133,7 +1154,7 @@
            <number>0</number>
           </property>
           <property name="orientation">
-           <enum>Qt::Orientation::Vertical</enum>
+           <enum>Qt::Vertical</enum>
           </property>
          </widget>
         </item>
@@ -1166,7 +1187,7 @@
              <item>
               <spacer name="horizontalSpacer_7">
                <property name="orientation">
-                <enum>Qt::Orientation::Horizontal</enum>
+                <enum>Qt::Horizontal</enum>
                </property>
                <property name="sizeHint" stdset="0">
                 <size>
@@ -1208,7 +1229,7 @@
              <item>
               <spacer name="horizontalSpacer_8">
                <property name="orientation">
-                <enum>Qt::Orientation::Horizontal</enum>
+                <enum>Qt::Horizontal</enum>
                </property>
                <property name="sizeHint" stdset="0">
                 <size>
@@ -1396,7 +1417,7 @@
               <item>
                <spacer name="verticalSpacer">
                 <property name="orientation">
-                 <enum>Qt::Orientation::Vertical</enum>
+                 <enum>Qt::Vertical</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
@@ -1613,7 +1634,7 @@
               <item>
                <spacer name="verticalSpacer_7">
                 <property name="orientation">
-                 <enum>Qt::Orientation::Vertical</enum>
+                 <enum>Qt::Vertical</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
@@ -1638,6 +1659,27 @@
  </widget>
  <customwidgets>
   <customwidget>
+   <class>Badge</class>
+   <extends>QLabel</extends>
+   <header>ui/small_widgets/Badge.h</header>
+  </customwidget>
+  <customwidget>
+   <class>RatingsWidget</class>
+   <extends>QWidget</extends>
+   <header>ui/small_widgets/RatingsWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StereoModeComboBox</class>
+   <extends>QComboBox</extends>
+   <header>ui/small_widgets/StereoModeComboBox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>HdrTypeComboBox</class>
+   <extends>QComboBox</extends>
+   <header>ui/small_widgets/HdrTypeComboBox.h</header>
+  </customwidget>
+  <customwidget>
    <class>ImageGallery</class>
    <extends>QWidget</extends>
    <header>ui/small_widgets/ImageGallery.h</header>
@@ -1659,22 +1701,6 @@
    <extends>QStackedWidget</extends>
    <header>ui/small_widgets/SlidingStackedWidget.h</header>
    <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>Badge</class>
-   <extends>QLabel</extends>
-   <header>ui/small_widgets/Badge.h</header>
-  </customwidget>
-  <customwidget>
-   <class>RatingsWidget</class>
-   <extends>QWidget</extends>
-   <header>ui/small_widgets/RatingsWidget.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>StereoModeComboBox</class>
-   <extends>QComboBox</extends>
-   <header>ui/small_widgets/StereoModeComboBox.h</header>
   </customwidget>
   <customwidget>
    <class>MediaFlags</class>
@@ -1699,7 +1725,7 @@
   <tabstop>tabWidget</tabstop>
   <tabstop>files</tabstop>
   <tabstop>name</tabstop>
-  <tabstop>originalName</tabstop>
+  <tabstop>originalTitle</tabstop>
   <tabstop>sortTitle</tabstop>
   <tabstop>set</tabstop>
   <tabstop>tagline</tabstop>
