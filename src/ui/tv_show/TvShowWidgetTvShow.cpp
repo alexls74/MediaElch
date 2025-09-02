@@ -96,13 +96,6 @@ TvShowWidgetTvShow::TvShowWidgetTvShow(QWidget* parent) :
     m_savingWidget->setMovie(m_loadingMovie);
     m_savingWidget->hide();
 
-    ui->btnImdb->setIcon(style()->standardIcon(QStyle::SP_ArrowRight));
-    ui->btnTmdb->setIcon(style()->standardIcon(QStyle::SP_ArrowRight));
-    ui->btnTvmaze->setIcon(style()->standardIcon(QStyle::SP_ArrowRight));
-    ui->btnImdb->setText(QLatin1String(""));
-    ui->btnTmdb->setText(QLatin1String(""));
-    ui->btnTvmaze->setText(QLatin1String(""));
-
     m_imageDownloadManager = new DownloadManager(this);
 
     ui->poster->setImageType(ImageType::TvShowPoster);

@@ -135,7 +135,10 @@
                  <string>Open TV show on TMDB.com</string>
                 </property>
                 <property name="text">
-                 <string>Go</string>
+                </property>
+                <property name="icon">
+                  <iconset resource="../../../data/MediaElch.qrc">
+                  <normaloff>:/img/web.png</normaloff>:/img/web.png</iconset>
                 </property>
                </widget>
               </item>
@@ -155,7 +158,10 @@
                  <string>Open TV show on TVmaze.com</string>
                 </property>
                 <property name="text">
-                 <string>Go</string>
+                </property>
+                <property name="icon">
+                  <iconset resource="../../../data/MediaElch.qrc">
+                  <normaloff>:/img/web.png</normaloff>:/img/web.png</iconset>
                 </property>
                </widget>
               </item>
@@ -251,7 +257,10 @@
                  <string>Open TV show on IMDb.com</string>
                 </property>
                 <property name="text">
-                 <string>Go</string>
+                </property>
+                <property name="icon">
+                  <iconset resource="../../../data/MediaElch.qrc">
+                  <normaloff>:/img/web.png</normaloff>:/img/web.png</iconset>
                 </property>
                </widget>
               </item>
