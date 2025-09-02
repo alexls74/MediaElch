@@ -39,7 +39,7 @@ TmdbMovie::TmdbMovie(TmdbMovieConfiguration& settings, QObject* parent) :
                             "TMDB's strong international focus and breadth of data is largely unmatched and "
                             "something we're incredibly proud of. Put simply, we live and breathe community "
                             "and that's precisely what makes us different.");
-    m_meta.website = "https://www.themoviedb.org/tv";
+    m_meta.website = "https://www.themoviedb.org";
     m_meta.termsOfService = "https://www.themoviedb.org/terms-of-use";
     m_meta.privacyPolicy = "https://www.themoviedb.org/privacy-policy";
     m_meta.help = "https://www.themoviedb.org/talk";

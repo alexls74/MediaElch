@@ -305,7 +305,7 @@ QUrl TmdbApi::getCollectionUrl(QString collectionId, const Locale& locale) const
 QString TmdbApi::apiKey()
 {
     // TheMovieTv API v3 key for MediaElch
-    return QStringLiteral("5d832bdf69dcb884922381ab01548d5b");
+    return QStringLiteral("76a75273f37f52d58bc675bcfb5bb9cf");
 }
 
 TmdbApiConfiguration TmdbApiConfiguration::from(QJsonDocument doc)
