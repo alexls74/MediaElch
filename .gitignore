@@ -1,6 +1,8 @@
 CMakeLists.txt.user*
 CMakeUserPresets.json
 
+.DS_Store
+
 # Dependencies
 ZenLib/
 MediaInfoDLL/
