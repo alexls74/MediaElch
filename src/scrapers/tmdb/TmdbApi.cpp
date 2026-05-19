@@ -248,7 +248,7 @@ QString TmdbApi::apiUrlParameterString(TmdbApi::ApiUrlParameter parameter) const
     switch (parameter) {
     case ApiUrlParameter::YEAR: return QStringLiteral("year");
     case ApiUrlParameter::PAGE: return QStringLiteral("page");
-    case ApiUrlParameter::INCLUDE_ADULT: return QStringLiteral("include_adult");
+    // case ApiUrlParameter::INCLUDE_ADULT: return QStringLiteral("include_adult");
     }
     qCCritical(generic) << "[TMDB] ApiUrlParameter: Unhandled enum case.";
     return QStringLiteral("unknown");
